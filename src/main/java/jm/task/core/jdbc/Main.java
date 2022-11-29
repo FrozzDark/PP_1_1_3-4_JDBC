@@ -7,7 +7,6 @@ import jm.task.core.jdbc.util.Util;
 import java.sql.SQLException;
 
 public class Main {
-    private static final UserService user = new UserServiceImpl();
     public static void main(String[] args) throws SQLException {
         Util.getConnection();
         UserService userService = new UserServiceImpl();

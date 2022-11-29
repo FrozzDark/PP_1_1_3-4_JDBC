@@ -15,6 +15,9 @@ public class Util {
     private static Connection connection = null;
 
     private static SessionFactory sessionFactory;
+    public Util() {
+
+    }
     public static SessionFactory getSessionFactory() {
         if (sessionFactory == null) {
             try {
